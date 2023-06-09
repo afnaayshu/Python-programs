@@ -11,3 +11,8 @@ print(type(s))
 print(var1)
 print(var2)
 print(var)
+#data frame
+dic = {"names" : ['Afna','Meril','Gopika','Melissa'],"marks":[23,45,12,10]}
+df = pd.DataFrame(dic)
+print(df)
+print(type(df))
